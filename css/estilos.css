@@ -1,0 +1,82 @@
+html{
+   background:linear-gradient(rgb(110, 109, 109),rgb(212, 209, 209));
+}
+body{
+   
+    border-width: 5px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 2px;
+    background-color: white;
+    
+    
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+.perfil{
+    background-color:#73fbf5;
+    display: flex;
+    gap:2rem;
+}
+figure {
+    border-radius: 100%;
+    overflow: hidden;
+    
+}
+.foto_portada {
+    width: 12rem;
+    
+}
+
+.seccion_general{
+    
+    display:flex;
+    gap:2rem;
+
+}
+.contenedor_fotoperfil{
+ padding: 1rem;
+ /*display:flex;
+ justify-content: center;*/
+}
+.contenedor_perfil{
+    padding: 1rem;
+    
+   }
+
+.nombre{
+    color:white;
+}
+.seccion_izquierda{
+    background-color: bisque;
+    
+    padding: 1rem;
+}
+.seccion_derecho{
+   
+    
+    padding: 1rem;
+
+}
+.contenedor_redes_sociales{
+    background-color: #fbf584;
+    color: white;
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    padding-bottom: 20px;
+}
+
+.redes_sociales{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
